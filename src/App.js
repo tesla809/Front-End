@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./museDAO-logo.jpg";
+import "./App.css";
 
 function App() {
   return (
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Kapper <code>src/App.js</code> and save to reload.
+          MuseDAO <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://discord.gg/4fMXSe8PMm"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          MuseDAO
         </a>
       </header>
     </div>
