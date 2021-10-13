@@ -1,6 +1,9 @@
 # mac directory
 .DS_Store
 
+# lock file
+yarn.lock
+
 # Logs
 logs
 *.log
