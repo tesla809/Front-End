@@ -1,24 +1,17 @@
-import logo from "./museDAO-logo.jpg";
-import "./App.css";
+import React from 'react';
+
+import Routes from './routes';
+import AppLayout from './layouts/AppLayout';
+import ThemeProvider from './contexts/ThemeContext';
+import './styles/index.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          MuseDAO <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://discord.gg/4fMXSe8PMm"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          MuseDAO
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <AppLayout>
+        <Routes />
+      </AppLayout>
+    </ThemeProvider>
   );
 }
 
